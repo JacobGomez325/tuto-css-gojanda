@@ -1,0 +1,78 @@
+
+:root {
+    --primary:gray;
+    --base:16px;
+    --small:12px;
+    --large:42px;
+    --p1:10px 10px;
+    --p2:20px 24px;
+    --p3:30px 32px;
+    --w-full:100%;
+    --shadow:1px 1px 3px black;
+}
+body {
+   margin: 0;
+   font-family: sans-serif;
+}
+
+.header-main {
+    background-color: var(--primary);
+    color: 16px;
+    color: var(--base);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0%;
+    background: #ccc;
+    height: 10vh;
+    z-index: 4;
+}
+.header-title {
+    color: inherit;
+    font-size: 20px;
+    
+    font-weight: bold;
+    text-transform: capitalize;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    
+}
+.navbar {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+    z-index: 2;
+   
+}
+.navbar a {
+    margin: 0px 12px;
+    color: inherit;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    text-decoration: underline;
+    transition: all .3s;
+}
+main {
+    padding: 20px;
+    position: relative;
+    background-color: aqua;
+    z-index: 1;
+}
+
+article p {
+    margin: 1rem 0;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-style: italic;
+}
+.footer {
+    background-color: var(--primary);
+}
